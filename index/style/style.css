@@ -1,0 +1,138 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+   
+    width: 100%;
+    background: #f8f1c1; 
+}
+header{
+    width: 100%;
+    margin-top: 20px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+
+    border-radius: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.nav2{
+    border-bottom: 2px solid black;
+    width: 200px;
+    font-size: 30px;
+
+}
+.zagolovok1_div{
+    width: 100%;
+    height: 150px;
+
+    
+    background: linear-gradient(90deg, #FFEEEE 0%, #2E2E2E 100%);
+}
+.zagolovok1{    
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 116px;
+    text-align: center;
+
+    background: linear-gradient(90deg, #000000 0%, #F9C714 50%, #F5F5F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;    
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+.menu{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-div{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+.menu-img{
+    width: 290px;
+    height: 300px;
+}
+.order{
+    text-decoration: none;
+    color:  black;
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu-info1{
+    
+    display: block;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    width: 300px;
+    height: 390px;
+    
+    font-size: 20px;
+}
+.menu-info1 a{
+    color: black;
+
+}
+.menu-info1 h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+.about-div{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: justify;
+}
+.footer-info{
+    
+    margin-top: 30px;
+    width: 100%;
+    background: linear-gradient(90deg, #FFEEEE 0%, #949494 100%);
+    display: flex;
+
+}
+table{
+    margin: 15px;
+    width: 50%;
+    text-align: left;
+    font-size: 30px;
+}
+.footer-img{
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+.logo-img{
+    margin: 15px;
+    margin-top: 100px;
+    width: 50%;
+    height: 150px;
+    border-radius: 15px;
+}
